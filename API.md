@@ -2,6 +2,8 @@
 
 It is running and uses a very simple scheme to provide the rhytm and also handles them as specific events. 
 
+You can find it here: <https://server-signal-api.herokuapp.com/api/events>
+
 So it is possible to set: 
 
 * The title of the event -- title 
