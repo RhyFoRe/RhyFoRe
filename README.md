@@ -1,19 +1,24 @@
-### Hi people we are planning the RhyFoRe a software package to support your local protest by enabling participants to sync their druming together with a digital tool independent from their location.
+# RhyFoRe - Rhytms For Resistence
+
+## Hi people we are planning the RhyFoRe a software package to support your local protest, 
+
+## by enabling participants to sync their druming together with a digital tool independent from their location.
 
 It would be ideal if people can deploy it on their own server so the hardware requirements stay low. 
 
 
-### Our Goal: 
+## Our Goal: 
 
-Synchronizing clients so all of them receive a signal simultaniously and therefore are enabled to drum in the same rhytm, wherever the clients are. This program can be used for protests as a measure to prevent the spreading of the coronavirus. We want to use digital technology for the good of the people. 
+Synchronizing clients so all of them receive a signal simultaniously. And therefore are enabled to drum in the same rhytm, wherever their location is. This program can be used for protests as a measure to prevent the spreading of the coronavirus.
+We want to use digital technology for the good of the people and this is one of the tools we found for this.
 
-So all the clients should receive either an visual change in the website or a audible signal depending on their choice. 
+All the clients should receive either an visual change in the website or a audible signal depending on their choice. 
 
 The "signals" mentioned here are those visual or audible changes.
 
 We are planning to create an API that handles the requests. 
 
-The mainpart in the beginning will a browseable website that syncs the clients. 
+The mainpart in the beginning will a browseable website that receives the clients, lets them access the API . 
 
 
 ### We created a roadmap to develop the RhyFoRe: 
