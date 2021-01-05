@@ -25,7 +25,7 @@ The mainpart in the beginning will a browseable website that receives the client
 
 ### In development:
 
-* Creating the API that serves the signals at the time of the event --- Nearly finished in a minimalistic version focused on function
+* Creating the API that serves the signals at the time of the event See the [API.md] <https://github.com/RhyFoRe/RhyFoRe/edit/main/API.md> --- Nearly finished in a minimalistic version focused on function
 
 * MongoDB to save the Data --- LIVE
 
