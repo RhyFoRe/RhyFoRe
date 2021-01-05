@@ -5,10 +5,12 @@ Please read the API specifications for the access of the  API-data and what to d
 
 Then this data must be translated to the signals wished for by the clients. 
 
+The length of the singal should be 0.15 seconds, we decided for this because it makes sense to try to hit accurately the beat isnt hard at all.
+
 ####Like in the website:
 * Either a audio signal maybe a hit of a drum but it must not but it shouldnt be too nasty over time and still clearly hearable
 * Or a visual change in the screen 
-####More:
+#### More:
 * Or access the flashlight to use it as signal 
 
 Some place for personalization like placeing logos or something would be nice so it gets a little visually appealing. 
