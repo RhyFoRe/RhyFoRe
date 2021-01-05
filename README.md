@@ -36,6 +36,8 @@ The mainpart in the beginning will a browseable website that receives the client
 * Creating an APK to access the API and translates it to display or play the signals. It should also access the camera and especially the flashlight so it can be used as a signal as well.
   * Extra: If their could be an solution how we can connect this app so it triggers an external light source, it would be amazing. Altough maybe it is easier to just create a program to run it on a raspberry pi or something similar.
   
-  
+
+#### I hope everything was clear there is a discussion board enabled here for this project.
+
 
 
