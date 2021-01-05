@@ -4,7 +4,7 @@ It is running and uses a very simple scheme to provide the rhytm and also handle
 
 You can find it here: <https://server-signal-api.herokuapp.com/api/events>
 
-So it is possible to set: 
+So it is possible to get: 
 
 * The title of the event -- title 
 * The description of the event -- description
@@ -15,6 +15,8 @@ So it is possible to set:
 * A first beat SlaveFirst (personally i think we should rename this, i dont want slaves)  it is the time between the start and the first beat in the loop -- slaveFirst
 * A second beat SlaveSecond it is the time between the first beat and the second beat in floating point accuracy in seconds -- SlaveSecond
 * A third beat SlaveThird it is the time between the second beat and the third beat in floating point accuracy in seconds -- SlaveThird
+* created at -- createdAt 
+* updated at -- updatedAt
 
 Sure this is just a minimalistic start but actually we can do already a lot with three beats :) 
 
