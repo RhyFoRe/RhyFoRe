@@ -6,6 +6,7 @@ So it is possible to set:
 
 * The title of the event -- title 
 * The description of the event -- description
+* An ID -- _id 
 * A time the event starts 
 * The duration of a loop in floating point accuracy in seconds -- duration
 * The total number of loop repeats --> the time the events starts + the duration of the loop * the loop repeats =  the end of the event
