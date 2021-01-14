@@ -1,0 +1,120 @@
+<div style="text-align:center">
+    <div id="title"></div>
+    <div id="timer"></div>
+    <span id="signal" class="dot"></span>
+</div>
+
+<script>
+    var idleColor = "#bbb";
+    var signalColor = "red";
+
+    function setDeceleratingTimeout(timeOutsArr, times, duration, counter, startTimeout, maximumDuration) {
+        var internalCallback = function (counter, passedDuration) {
+            return function () {
+                if (passedDuration < maximumDuration) {
+                    circle.style.display = "inline-block";
+                    var timeout = 0;
+                    if (counter % 2 == 1)
+                        timeout = duration;
+                    else{
+                        timeout = timeOutsArr[counter / 2 % timeOutsArr.length] * 1000;
+                        passedDuration+=timeout;
+                    }
+                    window.setTimeout(internalCallback, timeout);
+
+                    if ((counter % 2) === 1)
+                        circle.style.backgroundColor = signalColor;
+                    else
+                        circle.style.backgroundColor = idleColor;
+                    counter++;
+                }
+                else {
+                    window.setTimeout(function () { circle.style.backgroundColor = "#bbb" }, duration);
+                    if (times>1)
+                        setDeceleratingTimeout(timeOutsArr, times-1, 150, counter, timeOutsArr[0], maximumDuration);
+                }
+            }
+        }(counter, 0);
+        
+        window.setTimeout(internalCallback, startTimeout);
+    };
+
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open("GET", "https://server-signal-api.herokuapp.com/api/events", false); // false for synchronous request
+    xmlHttp.send(null);
+    var events = JSON.parse(xmlHttp.responseText);
+
+    //Workaround to make event start. Should be removed
+    var t = new Date();
+    t.setSeconds(t.getSeconds() + 10);
+    events[0].eventDate = t;
+
+    var circle = document.getElementById('signal');
+
+    var closestEvent;
+
+    events.forEach(event => {
+        var eventStartDate = new Date(event.eventDate);
+        if (event.eventDate !== undefined && eventStartDate > new Date()) {
+            if (closestEvent===undefined || eventStartDate < new Date(closestEvent.eventDate))
+                closestEvent = event;
+
+            var timeOutsArr = [event.slaveFirst];
+            if (event.slaveSecond > 0)
+                timeOutsArr.push(event.slaveSecond)
+            if (event.slaveThird > 0)
+                timeOutsArr.push(event.slaveThird)
+                
+            var counter = 1;
+            var milliSecondsBeforeStart = Math.abs(eventStartDate - new Date());
+            setDeceleratingTimeout(timeOutsArr, event.repeatCount, 150, counter, milliSecondsBeforeStart+timeOutsArr[0], event.duration*1000);
+        }
+    });
+
+    var titleDiv = document.getElementById("title");
+    if (closestEvent!==undefined){
+        titleDiv.innerText = "Event Name: "+closestEvent.title;
+        titleDiv.style.fontSize = 24;
+
+        var x = setInterval(function() {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = closestEvent.eventDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in an element with id="demo"
+        var timerDiv = document.getElementById("timer");
+        timerDiv.innerHTML = "Starts in: " + days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+        timerDiv.style.fontSize = 24;
+
+        // If the count down is over, write some text 
+        if (distance < 0) {
+        clearInterval(x);
+        timerDiv.style.display = "none";
+        }
+        }, 1000);
+    }
+    else{
+        titleDiv.innerText = "No upcoming events";
+    }
+
+</script>
+
+<style>
+    .dot {
+        height: 500px;
+        width: 500px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: none;
+    }
+</style>
