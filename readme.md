@@ -1,6 +1,8 @@
 # RhyFoRe - Rhytms For Resistence
 
-## Update: We created a front-end it works and is mostly finished. We can soon spread this. :) 
+## Update: We created a front-end it works the function is finished. We can soon spread this. :) Needs some polishing for sure. 
+
+Test it by downloading the client-app-js html and run it locally on your computer. 
 
 ### Hi people we are planning the RhyFoRe a software package to support your local protest, by enabling participants to sync their druming together.
 
@@ -27,5 +29,7 @@ The mainpart in the beginning will a browseable website that receives the client
 * Creating a Frontend using pure Javascript or Angular or React that connects to the API and translates it to display or play the signals --- mostly done
 * Creating an APK to access the API and translates it to display or play the signals. It should also access the camera and especially the flashlight so it can be used as a signal as well.
   * Extra: If their could be an solution how we can connect this app so it triggers an external light source, it would be amazing. Altough maybe it is easier to just create a program to run it on a raspberry pi or something similar.
+  
+
   
 #### I hope everything was clear there is a discussion board enabled here for this project.
