@@ -8,7 +8,7 @@ Test it by downloading the client-app-js html and run it locally on your compute
 
 ### Our Goal: 
 
-Synchronizing participants so all of them receive signals to hit the drum simultaniously.
+Synchronizing participants so all of them receive  signals to hit the drum simultaniously.
 And therefore are enabled to drum in the same rhytm, wherever their location is. This program can be used for protests as a measure to prevent the spreading of the coronavirus.
 All the clients should receive either a visual change in their client software or a audible signal depending on their choice. 
 The signals mentioned here are those visual or audible changes.
@@ -28,6 +28,7 @@ The signals mentioned here are those visual or audible changes.
   
 * A way to let it trigger external light sources.  raspberry pi or some other way.  It may be possible to resuse code from the web frontend.
 
+![alt](backendoverview.png)
 <img src = “screenshots/backendoverview.png” width = 745 height =345>
 
 <img src = “/screenshots/backendnewevent.png” width = 745 height =345>
