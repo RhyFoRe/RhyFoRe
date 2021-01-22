@@ -31,5 +31,5 @@ The signals mentioned here are those visual or audible changes.
 
 
   
-<img src = “https://github.com/RhyFoRe/RhyFoRe/blob/main/screenshots/backendnewevent.png” width = 745 height =285>
+<img src = “blob/main/screenshots/backendnewevent.png” width = 745 height =285>
  
