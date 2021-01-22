@@ -36,9 +36,12 @@ Screenshots:
 
 ##### Backend, overview <br>
 <img src="https://raw.githubusercontent.com/RhyFoRe/RhyFoRe/main/screenshots/backendoverview.png?raw=true" width=755 height=290>
+
 ##### Backend, add new events 
 <br>
+
 <img src="https://raw.githubusercontent.com/RhyFoRe/RhyFoRe/main/screenshots/backendnewevent.png?raw=true" width=755 height=290><br>
+
 ##### Frontend, minimalistic version 
 <br>
 <img src="https://raw.githubusercontent.com/RhyFoRe/RhyFoRe/main/screenshots/eventstart.png?raw=true" width=395 height=140>
