@@ -27,6 +27,16 @@ The signals mentioned here are those visual or audible changes.
 * APK to access the API and request the data. Creates the signals received by the participants to display or play them on their device. It should also access the flashlight so it can be used as a method of signaling as well. It may be possible to resuse code from the web frontend.
   
 * A way to let it trigger external light sources.  raspberry pi or some other way.  It may be possible to resuse code from the web frontend.
+
+<img src = “screenshots/backendoverview.png” width = 745 height =345>
+
+<img src = “screenshots/backendnewevent.png” width = 745 height =345>
+
+<img src = “_” width = _ height =_>
+
+<img src = “_” width = _ height =_>
+
+ 
   
 
  
