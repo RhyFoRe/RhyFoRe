@@ -34,16 +34,17 @@ Screenshots:
 
 ### Screenshots:
 
-Backend, overview <br>
+##### Backend, overview <br>
 <img src="https://raw.githubusercontent.com/RhyFoRe/RhyFoRe/main/screenshots/backendoverview.png?raw=true" width=755 height=290>
-Backend, add new events <br>
-<img src="https://raw.githubusercontent.com/RhyFoRe/RhyFoRe/main/screenshots/backendnewevent.png?raw=true" width=755 height=290>
-frontend, minimalistic version <br>
-<img src="https://raw.githubusercontent.com/RhyFoRe/RhyFoRe/main/screenshots/beat.png?raw=true" width=755 height=690>
+##### Backend, add new events <br>
+<img src="https://raw.githubusercontent.com/RhyFoRe/RhyFoRe/main/screenshots/backendnewevent.png?raw=true" width=755 height=290><br>
+##### Frontend, minimalistic version <br>
+<img src="https://raw.githubusercontent.com/RhyFoRe/RhyFoRe/main/screenshots/eventstart.png?raw=true" width=395 height=140>
 <br>
-<img src="https://raw.githubusercontent.com/RhyFoRe/RhyFoRe/main/screenshots/nobeat.png?raw=true" width=755 height=690>
+<img src="https://raw.githubusercontent.com/RhyFoRe/RhyFoRe/main/screenshots/beat.png?raw=true" width=620 height=620>
+<br>
+<img src="https://raw.githubusercontent.com/RhyFoRe/RhyFoRe/main/screenshots/nobeat.png?raw=true" width=620 height=620>
 
-<img src="https://raw.githubusercontent.com/RhyFoRe/RhyFoRe/main/screenshots/eventstart.png?raw=true" width=755 height=290>
 
 
 
