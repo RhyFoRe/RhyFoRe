@@ -6,17 +6,17 @@ Test it by downloading the client-app-js html and run it locally on your compute
 
 ### The RhyFoRe is a software package to support your local protest, by enabling participants to sync their druming together.
 
-### Our Goal: 
+## Our Goal: 
 
 Synchronizing participants so all of them receive  signals to hit the drum simultaniously.
 And therefore are enabled to drum in the same rhytm, wherever their location is. This program can be used for protests as a measure to prevent the spreading of the coronavirus.
 All the clients should receive either a visual change in their client software or a audible signal depending on their choice. 
 The signals mentioned here are those visual or audible changes.
 
-### We created a roadmap to develop the RhyFoRe: 
-
 Screenshots: 
   <https://github.com/RhyFoRe/RhyFoRe/tree/main/screenshots>
+
+## RhyFoRe - Roadmap: 
 
 
 ### Working - but in further development:
@@ -31,6 +31,10 @@ Screenshots:
 * APK to access the API and request the data. Creates the signals received by the participants to display or play them on their device. It should also access the flashlight so it can be used as a method of signaling as well. It may be possible to resuse code from the web frontend.
   
 * A way to let it trigger external light sources.  raspberry pi or some other way.  It may be possible to resuse code from the web frontend.
+
+<img src="https://raw.githubusercontent.com/RhyFoRe/RhyFoRe/main/screenshots/backendnewevent.png?raw=true" width=755 height=290>
+
+
 
 
 
