@@ -15,6 +15,10 @@ The signals mentioned here are those visual or audible changes.
 
 ### We created a roadmap to develop the RhyFoRe: 
 
+Screenshots: 
+  <https://github.com/RhyFoRe/RhyFoRe/tree/main/screenshots>
+
+
 ### Working - but in further development:
 
 * Creating the API that serves the signals at the time of the event See the API.md <https://github.com/RhyFoRe/RhyFoRe/edit/main/API.md> ---  finished in a minimalistic version focused on function
@@ -30,6 +34,4 @@ The signals mentioned here are those visual or audible changes.
 
 
 
-  
-<img src = “blob/main/screenshots/backendnewevent.png” width = 745 height =285>
  
