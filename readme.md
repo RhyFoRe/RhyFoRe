@@ -28,13 +28,7 @@ The signals mentioned here are those visual or audible changes.
   
 * A way to let it trigger external light sources.  raspberry pi or some other way.  It may be possible to resuse code from the web frontend.
 
-<img src = “screenshots/backendoverview.png” width = 745 height =345>
 
-<img src = “Rhyfore/screenshots/backendnewevent.png” width = 745 height =345>
-
-<img src = “_” width = _ height =_>
-
-<img src = “_” width = _ height =_>
 
  
   
