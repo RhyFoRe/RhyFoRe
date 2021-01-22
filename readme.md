@@ -47,9 +47,9 @@ Screenshots:
 <br>
 <img src="https://raw.githubusercontent.com/RhyFoRe/RhyFoRe/main/screenshots/eventstart.png?raw=true" >
 <br>
-<img src="https://raw.githubusercontent.com/RhyFoRe/RhyFoRe/main/screenshots/beat.png?raw=true" width=755 height=421>
+<img src="https://raw.githubusercontent.com/RhyFoRe/RhyFoRe/main/screenshots/beat.png?raw=true" width=221 height=210>
 <br>
-<img src="https://raw.githubusercontent.com/RhyFoRe/RhyFoRe/main/screenshots/nobeat.png?raw=true" width=755 height=421>
+<img src="https://raw.githubusercontent.com/RhyFoRe/RhyFoRe/main/screenshots/nobeat.png?raw=true" width=221 height=210>
 
 
 
