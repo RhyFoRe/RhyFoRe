@@ -30,7 +30,7 @@ The signals mentioned here are those visual or audible changes.
 
 <img src = “screenshots/backendoverview.png” width = 745 height =345>
 
-<img src = “screenshots/backendnewevent.png” width = 745 height =345>
+<img src = “/screenshots/backendnewevent.png” width = 745 height =345>
 
 <img src = “_” width = _ height =_>
 
